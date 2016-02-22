@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+  font-style: Helvetica;
+}
+
+header{
+  background-color: #CDCDCD;
+  width: 100vw;
+  height: 14vh;
+}
+
+.logo{
+  position: relative;
+  left: 2vw;
+  top: 2vh;
+  font-size: 24px;
+  font-weight: 100;
+  color: white;
+}
+
+#submitHeaderButton{
+  position: relative;
+  left: 14vw;
+  top: -4vh;
+  color: #505050;
+}
+
+.searchBar{
+  position: relative;
+  left: 20vw;
+  top: -4vh;
+  font-weight: 200;
+}
+
+.postContainer{
+
+}
+
+.post{
+  /*display: inline-block;
+  margin: 10px;*/
+  position: relative;
+  left: 15vw;
+  background-color: #CDCDCD;
+  height: 250px;
+  width: 70vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.postImage{
+  position:relative;
+  left: 1vw;
+  top: 1vh;
+  height: 100px;
+  width: 100px;
+}
+
+.postTitle{
+  position: absolute;
+  left: 10vw;
+  top: 2vh;
+  font-size: 16px;
+  font-style: bold;
+  color: #282828;
+
+}
+
+#postUpVote{
+  position: absolute;
+  left: 20vw;
+  top: 1vh;
+}
+
+#postDownVote{
+  position: absolute;
+  left: 23vw;
+  top: 1vh;
+}
+
+.postVoteAmount{
+  position: absolute;
+  left: 26vw;
+  top: 1.5vh;
+  font-size: 20px;
+}
+
+.postAuthor{
+  position: absolute;
+  left: 60vw;
+  top: 2vh;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #282828;
+}
+
+.postDescription{
+  position: absolute;
+  left: 10vw;
+  top: 7vh;
+  color: black;
+  font-weight: 200;
+}
+
+.postDate{
+  position: absolute;
+  left: 12vw;
+  top: 18vh;
+}
+
+.postComment{
+  position: absolute;
+  left: 15vw;
+  top: 18vh;
+}
+
+#postAddComment{
+  position: absolute;
+  left: 22vw;
+  top: 17vh;
+}
+
+.commentFormContainer{
+  position: absolute;
+  top: 26vh;
+  background-color: red;
+  height: 100px;
+  width: 300px;
+}
+
+.commentContainer{
+  position: absolute;
+  top: 26vh;
+  background-color: blue;
+  width: 400px;
+  left: 22vw;
+}
+
+/*.comment{
+  position: absolute;
+  top: 31vh;
+}
+
+.comment_author{
+  position: absolute;
+  top: 34vh;
+}*/
