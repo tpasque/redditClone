@@ -18,18 +18,33 @@ header{
   color: white;
 }
 
+.logo:hover{
+  color: #95F0F2;
+}
+
 #submitHeaderButton{
   position: relative;
   left: 14vw;
-  top: -4vh;
+  top: -5vh;
   color: #505050;
+}
+
+#submitHeaderButton:hover{
+  background: #95F0F2;
 }
 
 .searchBar{
   position: relative;
   left: 20vw;
-  top: -4vh;
+  top: -5vh;
   font-weight: 200;
+  border-radius: 5px 5px 5px 5px;
+  width: 20vw;
+  height: 5vh;
+}
+
+#submitPostButton:hover{
+  background: #95F0F2;
 }
 
 .postContainer{
@@ -41,11 +56,12 @@ header{
   margin: 10px;*/
   position: relative;
   left: 15vw;
-  background-color: #CDCDCD;
-  height: 250px;
+  background-color: #F8F6F8;
+  height: 350px;
   width: 70vw;
   margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .postImage{
@@ -72,10 +88,18 @@ header{
   top: 1vh;
 }
 
+#postUpVote:hover{
+  background: #95F0F2;
+}
+
 #postDownVote{
   position: absolute;
   left: 23vw;
   top: 1vh;
+}
+
+#postDownVote:hover{
+  background: #95F0F2;
 }
 
 .postVoteAmount{
@@ -87,10 +111,9 @@ header{
 
 .postAuthor{
   position: absolute;
-  left: 60vw;
+  left: 55vw;
   top: 2vh;
   font-size: 14px;
-  text-decoration: underline;
   color: #282828;
 }
 
@@ -104,36 +127,51 @@ header{
 
 .postDate{
   position: absolute;
-  left: 12vw;
+  left: 9vw;
   top: 18vh;
 }
 
-.postComment{
+#postComment{
   position: absolute;
-  left: 15vw;
-  top: 18vh;
+  left: 28vw;
+  top: 17vh;
 }
 
 #postAddComment{
   position: absolute;
-  left: 22vw;
+  left: 36vw;
   top: 17vh;
+}
+
+#postAddComment:hover{
+  background: #95F0F2;
+}
+
+#submitCommentButton:hover{
+  background-color: #95F0F2;
 }
 
 .commentFormContainer{
   position: absolute;
   top: 26vh;
-  background-color: red;
+  left: 2vw;
   height: 100px;
-  width: 300px;
+  width: 600px;
 }
 
 .commentContainer{
   position: absolute;
-  top: 26vh;
-  background-color: blue;
+  top: 32vh;
   width: 400px;
-  left: 22vw;
+  left: 2vw;
+}
+
+.green {
+  color: #438F26;
+}
+
+.red {
+  color: red;
 }
 
 /*.comment{
